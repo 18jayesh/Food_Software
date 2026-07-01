@@ -1,0 +1,4137 @@
+{
+  "comments": {
+    "recipe_1781860189968": {
+      "-OwGzbtwyWsbgUDAg9R_": {
+        "commentId": "-OwGzbtwyWsbgUDAg9R_",
+        "createdAt": 1782713316622,
+        "text": "nice recipe",
+        "userEmail": "nayan@gmail.com",
+        "userId": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+        "userName": "nayan",
+        "userProfile": ""
+      }
+    },
+    "recipe_1781861196794": {
+      "-OwGvzP98nIAyDXnUARh": {
+        "commentId": "-OwGvzP98nIAyDXnUARh",
+        "createdAt": 1782712364236,
+        "text": "good recie",
+        "userEmail": "nayan@gmail.com",
+        "userId": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+        "userName": "Anonymous"
+      },
+      "-OwGwh7nnRAT31lRTQ1Z": {
+        "commentId": "-OwGwh7nnRAT31lRTQ1Z",
+        "createdAt": 1782712551620,
+        "text": "teast",
+        "userEmail": "nayan@gmail.com",
+        "userId": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+        "userName": "Anonymous"
+      }
+    },
+    "recipe_1781862036040": {
+      "-OwH1c4ghEA2JWil7YCD": {
+        "commentId": "-OwH1c4ghEA2JWil7YCD",
+        "createdAt": 1782714106386,
+        "text": "good food",
+        "userEmail": "nayan@gmail.com",
+        "userId": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+        "userName": "nayan",
+        "userProfile": ""
+      }
+    }
+  },
+  "recipes": {
+    "recipe_1781860189968": {
+      "authorEmail": "nayan@gmail.com",
+      "authorName": "",
+      "category": "Lunch",
+      "commentCount": 1,
+      "cookingTime": 55,
+      "createdAt": 1781860192296,
+      "createdBy": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+      "description": "sdnuhds",
+      "difficulty": "Hard",
+      "image": "https://res.cloudinary.com/dv8aoncu0/image/upload/v1782116832/zec7bmxtkvzb1ewuufek.png",
+      "ingredients": [
+        {
+          "id": 1781860133249,
+          "name": "ndns",
+          "quantity": "12"
+        },
+        {
+          "id": 1781860138559,
+          "name": "dfdsf",
+          "quantity": "21"
+        },
+        {
+          "id": 1781860144546,
+          "name": "sdfs",
+          "quantity": "12"
+        },
+        {
+          "id": 1781860150486,
+          "name": "xfsdf",
+          "quantity": "12"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1781860158040,
+          "text": "sdfr"
+        },
+        {
+          "id": 1781860162460,
+          "text": "dscdc"
+        }
+      ],
+      "likes": {
+        "KHLGDxBQbxZrHixX6F8jcMgqvID3": true
+      },
+      "recipeId": "recipe_1781860189968",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "sada",
+        "asdac",
+        "sadc"
+      ],
+      "title": "chicken",
+      "updatedAt": 1782116830366,
+      "video": "https://www.youtube.com/embed/9T-Zbxg9X_4?si=iqs8VeeptGO81adc",
+      "visibility": "public"
+    },
+    "recipe_1781861196794": {
+      "authorEmail": "nayan@gmail.com",
+      "authorName": "",
+      "category": "Dessert",
+      "commentCount": 2,
+      "cookingTime": 30,
+      "createdAt": 1781861198616,
+      "createdBy": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+      "description": "vfdd",
+      "difficulty": "Hard",
+      "image": "https://res.cloudinary.com/dv8aoncu0/image/upload/v1782116868/ffns7zxtt0dgjo7uhyzg.png",
+      "ingredients": [
+        {
+          "id": 1781861160543,
+          "name": "dfsfs",
+          "quantity": "123"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1781861165545,
+          "text": "AXDa"
+        },
+        {
+          "id": 1781861169618,
+          "text": "dssas"
+        }
+      ],
+      "likes": {
+        "FqMIPdTWCQerNS5zfjIUtQShhu83": true,
+        "KHLGDxBQbxZrHixX6F8jcMgqvID3": true
+      },
+      "recipeId": "recipe_1781861196794",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "sdsacs"
+      ],
+      "title": "fgsg",
+      "updatedAt": 1782116866049,
+      "video": "https://www.youtube.com/embed/9T-Zbxg9X_4?si=iqs8VeeptGO81adc",
+      "visibility": "private"
+    },
+    "recipe_1781862036040": {
+      "authorEmail": "nayan@gmail.com",
+      "authorName": "",
+      "category": "Dessert",
+      "commentCount": 1,
+      "cookingTime": 30,
+      "createdAt": 1781862037419,
+      "createdBy": "KHLGDxBQbxZrHixX6F8jcMgqvID3",
+      "description": "sdc",
+      "difficulty": "Hard",
+      "image": "https://res.cloudinary.com/dv8aoncu0/image/upload/v1782116905/ckrqyvzpqao1qm7u74rc.png",
+      "ingredients": [
+        {
+          "id": 1781861997241,
+          "name": "sCds",
+          "quantity": "12"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1781862001320,
+          "text": "dszc"
+        },
+        {
+          "id": 1782112906435,
+          "text": "jayesh"
+        }
+      ],
+      "likes": {
+        "FqMIPdTWCQerNS5zfjIUtQShhu83": true,
+        "KHLGDxBQbxZrHixX6F8jcMgqvID3": true
+      },
+      "recipeId": "recipe_1781862036040",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "sadaf"
+      ],
+      "title": "Coding",
+      "updatedAt": 1782116904282,
+      "video": "https://www.youtube.com/embed/9T-Zbxg9X_4?si=iqs8VeeptGO81adc",
+      "visibility": "public"
+    },
+    "recipe_1783000000001": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Breakfast",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000001,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Soft and fluffy pancakes served with maple syrup.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Flour",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Egg",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Sugar",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Mix all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Cook on medium flame until golden."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000001",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Breakfast",
+        "Sweet",
+        "Quick"
+      ],
+      "title": "Classic Pancakes",
+      "updatedAt": 1783000000001,
+      "video": "https://www.youtube.com/embed/NCMKedZvnyI",
+      "visibility": "public"
+    },
+    "recipe_1783000000002": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Lunch",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000002,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Healthy grilled chicken with vegetables.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Chicken Breast",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "name": "Olive Oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Salt",
+          "quantity": "1 tsp"
+        },
+        {
+          "id": 4,
+          "name": "Pepper",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Season the chicken."
+        },
+        {
+          "id": 2,
+          "text": "Grill for 15 minutes each side."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000002",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Protein",
+        "Healthy",
+        "Chicken"
+      ],
+      "title": "Grilled Chicken",
+      "updatedAt": 1783000000002,
+      "video": "https://www.youtube.com/embed/L7r6I7v8J8E",
+      "visibility": "public"
+    },
+    "recipe_1783000000003": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Dinner",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000003,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy Italian white sauce pasta.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Pasta",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Butter",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Cheese",
+          "quantity": "100g"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Boil pasta."
+        },
+        {
+          "id": 2,
+          "text": "Prepare white sauce."
+        },
+        {
+          "id": 3,
+          "text": "Mix together and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000003",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Dinner"
+      ],
+      "title": "White Sauce Pasta",
+      "updatedAt": 1783000000003,
+      "video": "https://www.youtube.com/embed/8U_29i9Qp5U",
+      "visibility": "public"
+    },
+    "recipe_1783000000004": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000004,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing chocolate milkshake.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Milk",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Chocolate Ice Cream",
+          "quantity": "3 Scoops"
+        },
+        {
+          "id": 3,
+          "name": "Chocolate Syrup",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Serve chilled."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000004",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Drink",
+        "Chocolate",
+        "Dessert"
+      ],
+      "title": "Chocolate Milkshake",
+      "updatedAt": 1783000000004,
+      "video": "https://www.youtube.com/embed/5mK4Qv0kJ9A",
+      "visibility": "public"
+    },
+    "recipe_1783000000005": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 45,
+      "createdAt": 1783000000005,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Authentic Paneer Butter Masala with creamy gravy.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Paneer",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Tomato Puree",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Fresh Cream",
+          "quantity": "1/2 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook tomato gravy."
+        },
+        {
+          "id": 2,
+          "text": "Add paneer cubes."
+        },
+        {
+          "id": 3,
+          "text": "Finish with cream and butter."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000005",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Indian",
+        "Paneer",
+        "Curry"
+      ],
+      "title": "Paneer Butter Masala",
+      "updatedAt": 1783000000005,
+      "video": "https://www.youtube.com/embed/a03U45jFxOI",
+      "visibility": "public"
+    },
+    "recipe_1783000000006": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Snacks",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000006,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Crispy golden French fries with delicious seasoning.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Potatoes",
+          "quantity": "4"
+        },
+        {
+          "id": 2,
+          "name": "Salt",
+          "quantity": "1 tsp"
+        },
+        {
+          "id": 3,
+          "name": "Oil",
+          "quantity": "For frying"
+        },
+        {
+          "id": 4,
+          "name": "Peri Peri Masala",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cut potatoes into strips."
+        },
+        {
+          "id": 2,
+          "text": "Deep fry until golden."
+        },
+        {
+          "id": 3,
+          "text": "Sprinkle seasoning and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000006",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Snacks",
+        "Potato",
+        "Fast Food"
+      ],
+      "title": "Crispy French Fries",
+      "updatedAt": 1783000000006,
+      "video": "https://www.youtube.com/embed/JQ688mYQmRo",
+      "visibility": "public"
+    },
+    "recipe_1783000000007": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Chinese",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000007,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Restaurant style vegetable fried rice.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Cooked Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Carrot",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Capsicum",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Soy Sauce",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Saute vegetables."
+        },
+        {
+          "id": 2,
+          "text": "Add cooked rice."
+        },
+        {
+          "id": 3,
+          "text": "Mix sauces and cook for 5 minutes."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000007",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Chinese",
+        "Rice",
+        "Veg"
+      ],
+      "title": "Veg Fried Rice",
+      "updatedAt": 1783000000007,
+      "video": "https://www.youtube.com/embed/owUiKyx4chI",
+      "visibility": "public"
+    },
+    "recipe_1783000000008": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000008,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Healthy avocado toast for breakfast.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Bread",
+          "quantity": "2 Slices"
+        },
+        {
+          "id": 2,
+          "name": "Avocado",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Black Pepper",
+          "quantity": "1 tsp"
+        },
+        {
+          "id": 4,
+          "name": "Salt",
+          "quantity": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Toast bread."
+        },
+        {
+          "id": 2,
+          "text": "Mash avocado."
+        },
+        {
+          "id": 3,
+          "text": "Spread and season before serving."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000008",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Breakfast",
+        "Toast"
+      ],
+      "title": "Avocado Toast",
+      "updatedAt": 1783000000008,
+      "video": "https://www.youtube.com/embed/tQmK9g0M6f8",
+      "visibility": "public"
+    },
+    "recipe_1783000000009": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 40,
+      "createdAt": 1783000000009,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Homemade Margherita Pizza with mozzarella cheese.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Pizza Base",
+          "quantity": "1"
+        },
+        {
+          "id": 2,
+          "name": "Pizza Sauce",
+          "quantity": "4 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Mozzarella",
+          "quantity": "150g"
+        },
+        {
+          "id": 4,
+          "name": "Basil Leaves",
+          "quantity": "5"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Spread pizza sauce."
+        },
+        {
+          "id": 2,
+          "text": "Add cheese and basil."
+        },
+        {
+          "id": 3,
+          "text": "Bake until cheese melts."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000009",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Pizza",
+        "Italian",
+        "Cheese"
+      ],
+      "title": "Margherita Pizza",
+      "updatedAt": 1783000000009,
+      "video": "https://www.youtube.com/embed/sv3TXMSv6Lw",
+      "visibility": "public"
+    },
+    "recipe_1783000000010": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 10,
+      "createdAt": 1783000000010,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing fresh mango smoothie.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Mango",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Sugar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Ice Cubes",
+          "quantity": "5"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Add all ingredients into blender."
+        },
+        {
+          "id": 2,
+          "text": "Blend until smooth."
+        },
+        {
+          "id": 3,
+          "text": "Serve chilled."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000010",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Drink",
+        "Mango",
+        "Smoothie"
+      ],
+      "title": "Mango Smoothie",
+      "updatedAt": 1783000000010,
+      "video": "https://www.youtube.com/embed/2m4j4R3vK6Q",
+      "visibility": "public"
+    },
+    "recipe_1783000000011": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Breakfast",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000011,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Soft and fluffy pancakes served with maple syrup.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Flour",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "1.5 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Egg",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Baking Powder",
+          "quantity": "2 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Mix all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Cook on a hot pan."
+        },
+        {
+          "id": 3,
+          "text": "Serve with maple syrup."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000011",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Breakfast",
+        "Sweet",
+        "Pancakes"
+      ],
+      "title": "Fluffy Pancakes",
+      "updatedAt": 1783000000011,
+      "video": "https://www.youtube.com/embed/NCMKedZvnyI",
+      "visibility": "public"
+    },
+    "recipe_1783000000012": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 40,
+      "createdAt": 1783000000012,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy and spicy Paneer Butter Masala.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Paneer",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Tomato Puree",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Cream",
+          "quantity": "1/2 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare masala."
+        },
+        {
+          "id": 2,
+          "text": "Add paneer cubes."
+        },
+        {
+          "id": 3,
+          "text": "Finish with butter and cream."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000012",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Paneer",
+        "Indian",
+        "Curry"
+      ],
+      "title": "Paneer Butter Masala",
+      "updatedAt": 1783000000012,
+      "video": "https://www.youtube.com/embed/a30BLUQiFoc",
+      "visibility": "public"
+    },
+    "recipe_1783000000013": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 60,
+      "createdAt": 1783000000013,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Classic chocolate cake with rich frosting.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Flour",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Cocoa Powder",
+          "quantity": "1/2 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Sugar",
+          "quantity": "1.5 Cups"
+        },
+        {
+          "id": 4,
+          "name": "Eggs",
+          "quantity": "2"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Mix ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Bake for 35 minutes."
+        },
+        {
+          "id": 3,
+          "text": "Decorate with frosting."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000013",
+      "servings": 8,
+      "status": "published",
+      "tags": [
+        "Cake",
+        "Chocolate",
+        "Dessert"
+      ],
+      "title": "Chocolate Cake",
+      "updatedAt": 1783000000013,
+      "video": "https://www.youtube.com/embed/rF52Ci0H8SU",
+      "visibility": "public"
+    },
+    "recipe_1783000000014": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Mexican",
+      "commentCount": 0,
+      "cookingTime": 25,
+      "createdAt": 1783000000014,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Loaded chicken tacos with fresh salsa.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Taco Shells",
+          "quantity": "6"
+        },
+        {
+          "id": 2,
+          "name": "Chicken",
+          "quantity": "250g"
+        },
+        {
+          "id": 3,
+          "name": "Lettuce",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Cheese",
+          "quantity": "100g"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook chicken."
+        },
+        {
+          "id": 2,
+          "text": "Fill taco shells."
+        },
+        {
+          "id": 3,
+          "text": "Top with salsa and cheese."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000014",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Mexican",
+        "Chicken",
+        "Tacos"
+      ],
+      "title": "Chicken Tacos",
+      "updatedAt": 1783000000014,
+      "video": "https://www.youtube.com/embed/2aDgH-_G4h0",
+      "visibility": "public"
+    },
+    "recipe_1783000000015": {
+      "authorEmail": "jayeshmali245@gmail.com",
+      "authorName": "Jayesh",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 10,
+      "createdAt": 1783000000015,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing iced coffee with creamy texture.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Coffee",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Ice Cubes",
+          "quantity": "6"
+        },
+        {
+          "id": 4,
+          "name": "Sugar",
+          "quantity": "2 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Pour into glass."
+        },
+        {
+          "id": 3,
+          "text": "Serve chilled."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000015",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Coffee",
+        "Drink",
+        "Cold"
+      ],
+      "title": "Iced Coffee",
+      "updatedAt": 1783000000015,
+      "video": "https://www.youtube.com/embed/1Qxg0Yj5Q4M",
+      "visibility": "public"
+    },
+    "recipe_1783000000016": {
+      "authorEmail": "aarav.patel@gmail.com",
+      "authorName": "Aarav Patel",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000016,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy white sauce pasta loaded with vegetables.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Pasta",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Cheese",
+          "quantity": "100g"
+        },
+        {
+          "id": 4,
+          "name": "Mixed Veggies",
+          "quantity": "1 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Boil pasta."
+        },
+        {
+          "id": 2,
+          "text": "Prepare white sauce."
+        },
+        {
+          "id": 3,
+          "text": "Mix together and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000016",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Creamy"
+      ],
+      "title": "White Sauce Pasta",
+      "updatedAt": 1783000000016,
+      "video": "https://www.youtube.com/embed/QP5gP0H0n6k",
+      "visibility": "public"
+    },
+    "recipe_1783000000017": {
+      "authorEmail": "priya.shah@gmail.com",
+      "authorName": "Priya Shah",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000017,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Fresh avocado salad with lemon dressing.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Avocado",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Tomato",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Cucumber",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Lemon Juice",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cut vegetables."
+        },
+        {
+          "id": 2,
+          "text": "Mix dressing."
+        },
+        {
+          "id": 3,
+          "text": "Serve fresh."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000017",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Salad",
+        "Fresh"
+      ],
+      "title": "Avocado Salad",
+      "updatedAt": 1783000000017,
+      "video": "https://www.youtube.com/embed/RK8Q6r6W9qQ",
+      "visibility": "public"
+    },
+    "recipe_1783000000018": {
+      "authorEmail": "rahul.mehta@gmail.com",
+      "authorName": "Rahul Mehta",
+      "category": "Fast Food",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000018,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Juicy homemade chicken burger with crispy fries.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Burger Bun",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Chicken Patty",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "name": "Cheese Slice",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Lettuce",
+          "quantity": "2 Leaves"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook patties."
+        },
+        {
+          "id": 2,
+          "text": "Assemble burger."
+        },
+        {
+          "id": 3,
+          "text": "Serve hot."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000018",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Burger",
+        "Chicken",
+        "Fast Food"
+      ],
+      "title": "Chicken Burger",
+      "updatedAt": 1783000000018,
+      "video": "https://www.youtube.com/embed/foD42-73wdI",
+      "visibility": "public"
+    },
+    "recipe_1783000000019": {
+      "authorEmail": "neha.joshi@gmail.com",
+      "authorName": "Neha Joshi",
+      "category": "Chinese",
+      "commentCount": 0,
+      "cookingTime": 25,
+      "createdAt": 1783000000019,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Restaurant style vegetable fried rice.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Carrot",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Capsicum",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Soy Sauce",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Saute vegetables."
+        },
+        {
+          "id": 2,
+          "text": "Add rice."
+        },
+        {
+          "id": 3,
+          "text": "Season and toss."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000019",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Chinese",
+        "Rice",
+        "Veg"
+      ],
+      "title": "Veg Fried Rice",
+      "updatedAt": 1783000000019,
+      "video": "https://www.youtube.com/embed/owUiKyx4chI",
+      "visibility": "public"
+    },
+    "recipe_1783000000020": {
+      "authorEmail": "karan.desai@gmail.com",
+      "authorName": "Karan Desai",
+      "category": "Snacks",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000020,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Crispy potato cheese balls perfect for evening snacks.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1625944525533-473f1b3d54e7",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Potato",
+          "quantity": "4"
+        },
+        {
+          "id": 2,
+          "name": "Cheese",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "name": "Bread Crumbs",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Oil",
+          "quantity": "For Frying"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare potato mixture."
+        },
+        {
+          "id": 2,
+          "text": "Stuff cheese and coat."
+        },
+        {
+          "id": 3,
+          "text": "Deep fry until golden."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000020",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Snacks",
+        "Potato",
+        "Cheese"
+      ],
+      "title": "Potato Cheese Balls",
+      "updatedAt": 1783000000020,
+      "video": "https://www.youtube.com/embed/4aZr5hZXP_s",
+      "visibility": "public"
+    },
+    "recipe_1783000000021": {
+      "authorEmail": "riya.patel@gmail.com",
+      "authorName": "Riya Patel",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000021,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Traditional Punjabi Chole served with fluffy Bhature.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1626132647523-66d9b8b4f5d5",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Chickpeas",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Onion",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "name": "Tomato",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Spices",
+          "quantity": "As Required"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Boil chickpeas."
+        },
+        {
+          "id": 2,
+          "text": "Prepare spicy gravy."
+        },
+        {
+          "id": 3,
+          "text": "Serve with bhature."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000021",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Indian",
+        "Chole",
+        "Punjabi"
+      ],
+      "title": "Chole Bhature",
+      "updatedAt": 1783000000021,
+      "video": "https://www.youtube.com/embed/IGtGx2fWz4Y",
+      "visibility": "public"
+    },
+    "recipe_1783000000022": {
+      "authorEmail": "dev.shah@gmail.com",
+      "authorName": "Dev Shah",
+      "category": "Breakfast",
+      "commentCount": 0,
+      "cookingTime": 10,
+      "createdAt": 1783000000022,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Healthy oats smoothie loaded with fruits.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Oats",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Banana",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Honey",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend everything."
+        },
+        {
+          "id": 2,
+          "text": "Serve chilled."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000022",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Smoothie",
+        "Breakfast"
+      ],
+      "title": "Oats Banana Smoothie",
+      "updatedAt": 1783000000022,
+      "video": "https://www.youtube.com/embed/fS7nQ0w6q7g",
+      "visibility": "public"
+    },
+    "recipe_1783000000023": {
+      "authorEmail": "krisha.trivedi@gmail.com",
+      "authorName": "Krisha Trivedi",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 45,
+      "createdAt": 1783000000023,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy mango ice cream made at home.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Mango",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Cream",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Sugar",
+          "quantity": "1/2 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Freeze for 6 hours."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000023",
+      "servings": 5,
+      "status": "published",
+      "tags": [
+        "Dessert",
+        "Ice Cream",
+        "Mango"
+      ],
+      "title": "Homemade Mango Ice Cream",
+      "updatedAt": 1783000000023,
+      "video": "https://www.youtube.com/embed/H-9jQdK0F2Q",
+      "visibility": "public"
+    },
+    "recipe_1783000000024": {
+      "authorEmail": "meet.patel@gmail.com",
+      "authorName": "Meet Patel",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000024,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Cheesy homemade Margherita Pizza.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Pizza Base",
+          "quantity": "1"
+        },
+        {
+          "id": 2,
+          "name": "Mozzarella",
+          "quantity": "200g"
+        },
+        {
+          "id": 3,
+          "name": "Pizza Sauce",
+          "quantity": "4 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Basil",
+          "quantity": "Few Leaves"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Spread sauce."
+        },
+        {
+          "id": 2,
+          "text": "Add cheese."
+        },
+        {
+          "id": 3,
+          "text": "Bake until golden."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000024",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Pizza",
+        "Italian",
+        "Cheese"
+      ],
+      "title": "Margherita Pizza",
+      "updatedAt": 1783000000024,
+      "video": "https://www.youtube.com/embed/sv3TXMSv6Lw",
+      "visibility": "public"
+    },
+    "recipe_1783000000025": {
+      "authorEmail": "dhruv.joshi@gmail.com",
+      "authorName": "Dhruv Joshi",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 5,
+      "createdAt": 1783000000025,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing watermelon mint cooler for summer.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Watermelon",
+          "quantity": "3 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Mint Leaves",
+          "quantity": "10"
+        },
+        {
+          "id": 3,
+          "name": "Ice Cubes",
+          "quantity": "8"
+        },
+        {
+          "id": 4,
+          "name": "Lemon Juice",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend everything."
+        },
+        {
+          "id": 2,
+          "text": "Serve chilled."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000025",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Drink",
+        "Summer",
+        "Watermelon"
+      ],
+      "title": "Watermelon Mint Cooler",
+      "updatedAt": 1783000000025,
+      "video": "https://www.youtube.com/embed/qB0m9n2T2ZU",
+      "visibility": "public"
+    },
+    "recipe_1783000000026": {
+      "authorEmail": "kavya.shah@gmail.com",
+      "authorName": "Kavya Shah",
+      "category": "Lunch",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000026,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Healthy vegetable pulao packed with fresh vegetables and aromatic spices.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Basmati Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Mixed Vegetables",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Ghee",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Whole Spices",
+          "quantity": "1 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Saute spices in ghee."
+        },
+        {
+          "id": 2,
+          "text": "Add vegetables and rice."
+        },
+        {
+          "id": 3,
+          "text": "Cook until fluffy."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000026",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Rice",
+        "Healthy",
+        "Lunch"
+      ],
+      "title": "Veg Pulao",
+      "updatedAt": 1783000000026,
+      "video": "https://www.youtube.com/embed/6N1NQ1d5A6Q",
+      "visibility": "public"
+    },
+    "recipe_1783000000027": {
+      "authorEmail": "yash.mehta@gmail.com",
+      "authorName": "Yash Mehta",
+      "category": "Fast Food",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000027,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Loaded cheesy french fries with herbs and sauces.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "French Fries",
+          "quantity": "300g"
+        },
+        {
+          "id": 2,
+          "name": "Cheese Sauce",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Oregano",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Fry potatoes."
+        },
+        {
+          "id": 2,
+          "text": "Pour cheese sauce."
+        },
+        {
+          "id": 3,
+          "text": "Serve immediately."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000027",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Fries",
+        "Cheese",
+        "Fast Food"
+      ],
+      "title": "Cheesy French Fries",
+      "updatedAt": 1783000000027,
+      "video": "https://www.youtube.com/embed/PoR6D6rDq1Y",
+      "visibility": "public"
+    },
+    "recipe_1783000000028": {
+      "authorEmail": "aditi.patel@gmail.com",
+      "authorName": "Aditi Patel",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 50,
+      "createdAt": 1783000000028,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Soft vanilla cupcakes with creamy butter frosting.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Flour",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "name": "Vanilla Essence",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare batter."
+        },
+        {
+          "id": 2,
+          "text": "Bake cupcakes."
+        },
+        {
+          "id": 3,
+          "text": "Decorate with frosting."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000028",
+      "servings": 6,
+      "status": "published",
+      "tags": [
+        "Cupcake",
+        "Dessert",
+        "Vanilla"
+      ],
+      "title": "Vanilla Cupcakes",
+      "updatedAt": 1783000000028,
+      "video": "https://www.youtube.com/embed/Y6xL5Y9vR8E",
+      "visibility": "public"
+    },
+    "recipe_1783000000029": {
+      "authorEmail": "rohan.parmar@gmail.com",
+      "authorName": "Rohan Parmar",
+      "category": "Street Food",
+      "commentCount": 0,
+      "cookingTime": 25,
+      "createdAt": 1783000000029,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Mumbai style spicy Pav Bhaji loaded with butter.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Mixed Vegetables",
+          "quantity": "3 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "3 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Pav",
+          "quantity": "6"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook vegetables."
+        },
+        {
+          "id": 2,
+          "text": "Mash with masala."
+        },
+        {
+          "id": 3,
+          "text": "Serve with butter pav."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000029",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Street Food",
+        "Pav",
+        "Indian"
+      ],
+      "title": "Mumbai Pav Bhaji",
+      "updatedAt": 1783000000029,
+      "video": "https://www.youtube.com/embed/v5l5WJ6bYkQ",
+      "visibility": "public"
+    },
+    "recipe_1783000000030": {
+      "authorEmail": "sneha.desai@gmail.com",
+      "authorName": "Sneha Desai",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 12,
+      "createdAt": 1783000000030,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Protein rich fruit yogurt bowl with nuts and honey.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Greek Yogurt",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Mixed Fruits",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Honey",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Almonds",
+          "quantity": "10"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Add yogurt to bowl."
+        },
+        {
+          "id": 2,
+          "text": "Top with fruits and nuts."
+        },
+        {
+          "id": 3,
+          "text": "Drizzle honey and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000030",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Breakfast",
+        "Protein"
+      ],
+      "title": "Fruit Yogurt Bowl",
+      "updatedAt": 1783000000030,
+      "video": "https://www.youtube.com/embed/4S9JQn4QJq0",
+      "visibility": "public"
+    },
+    "recipe_1783000000031": {
+      "authorEmail": "harsh.patel@gmail.com",
+      "authorName": "Harsh Patel",
+      "category": "Mexican",
+      "commentCount": 0,
+      "cookingTime": 25,
+      "createdAt": 1783000000031,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Crispy Mexican tacos stuffed with spicy vegetables and cheese.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Taco Shells",
+          "quantity": "6"
+        },
+        {
+          "id": 2,
+          "name": "Mixed Veggies",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Cheddar Cheese",
+          "quantity": "100g"
+        },
+        {
+          "id": 4,
+          "name": "Taco Seasoning",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook vegetables with seasoning."
+        },
+        {
+          "id": 2,
+          "text": "Fill taco shells."
+        },
+        {
+          "id": 3,
+          "text": "Top with cheese and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000031",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Cheese"
+      ],
+      "title": "Veg Mexican Tacos",
+      "updatedAt": 1783000000031,
+      "video": "https://www.youtube.com/embed/6xJvDLIZf8E",
+      "visibility": "public"
+    },
+    "recipe_1783000000032": {
+      "authorEmail": "nidhi.shah@gmail.com",
+      "authorName": "Nidhi Shah",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 8,
+      "createdAt": 1783000000032,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing cold coffee topped with whipped cream.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Milk",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Coffee",
+          "quantity": "2 tsp"
+        },
+        {
+          "id": 3,
+          "name": "Sugar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Ice Cubes",
+          "quantity": "6"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Pour into glass."
+        },
+        {
+          "id": 3,
+          "text": "Top with whipped cream."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000032",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Coffee",
+        "Cold Coffee",
+        "Drink"
+      ],
+      "title": "Cafe Style Cold Coffee",
+      "updatedAt": 1783000000032,
+      "video": "https://www.youtube.com/embed/WJ8N2kgLQ0Q",
+      "visibility": "public"
+    },
+    "recipe_1783000000033": {
+      "authorEmail": "vivek.joshi@gmail.com",
+      "authorName": "Vivek Joshi",
+      "category": "Chinese",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000033,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Spicy Schezwan noodles tossed with colorful vegetables.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Noodles",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Capsicum",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Carrot",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Schezwan Sauce",
+          "quantity": "3 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Boil noodles."
+        },
+        {
+          "id": 2,
+          "text": "Stir fry vegetables."
+        },
+        {
+          "id": 3,
+          "text": "Mix sauce and noodles."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000033",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Chinese",
+        "Noodles",
+        "Spicy"
+      ],
+      "title": "Schezwan Veg Noodles",
+      "updatedAt": 1783000000033,
+      "video": "https://www.youtube.com/embed/8M3mQ4R2M6A",
+      "visibility": "public"
+    },
+    "recipe_1783000000034": {
+      "authorEmail": "ananya.mehta@gmail.com",
+      "authorName": "Ananya Mehta",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 40,
+      "createdAt": 1783000000034,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Rich chocolate brownies with gooey chocolate center.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Dark Chocolate",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "name": "Flour",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Sugar",
+          "quantity": "1 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare brownie batter."
+        },
+        {
+          "id": 2,
+          "text": "Bake for 30 minutes."
+        },
+        {
+          "id": 3,
+          "text": "Cool and slice."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000034",
+      "servings": 8,
+      "status": "published",
+      "tags": [
+        "Brownie",
+        "Chocolate",
+        "Dessert"
+      ],
+      "title": "Chocolate Brownies",
+      "updatedAt": 1783000000034,
+      "video": "https://www.youtube.com/embed/lIb_741_dIw",
+      "visibility": "public"
+    },
+    "recipe_1783000000035": {
+      "authorEmail": "parth.patel@gmail.com",
+      "authorName": "Parth Patel",
+      "category": "Snacks",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000035,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Crispy paneer fingers served with spicy dip.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Paneer",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Bread Crumbs",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Corn Flour",
+          "quantity": "3 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Oil",
+          "quantity": "For Frying"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Coat paneer pieces."
+        },
+        {
+          "id": 2,
+          "text": "Deep fry until crispy."
+        },
+        {
+          "id": 3,
+          "text": "Serve with sauce."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000035",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Paneer",
+        "Snack",
+        "Crispy"
+      ],
+      "title": "Crispy Paneer Fingers",
+      "updatedAt": 1783000000035,
+      "video": "https://www.youtube.com/embed/Uv2b5L4D8hY",
+      "visibility": "public"
+    },
+    "recipe_1783000000036": {
+      "authorEmail": "isha.patel@gmail.com",
+      "authorName": "Isha Patel",
+      "category": "Breakfast",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000036,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Soft and fluffy banana pancakes perfect for breakfast.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Banana",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Flour",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Milk",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Honey",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare pancake batter."
+        },
+        {
+          "id": 2,
+          "text": "Cook on medium flame."
+        },
+        {
+          "id": 3,
+          "text": "Serve with honey."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000036",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Breakfast",
+        "Banana",
+        "Pancakes"
+      ],
+      "title": "Banana Pancakes",
+      "updatedAt": 1783000000036,
+      "video": "https://www.youtube.com/embed/4E6wT2wYx7E",
+      "visibility": "public"
+    },
+    "recipe_1783000000037": {
+      "authorEmail": "manav.shah@gmail.com",
+      "authorName": "Manav Shah",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 45,
+      "createdAt": 1783000000037,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Authentic Dal Tadka served with steamed rice.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Toor Dal",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 2,
+          "name": "Garlic",
+          "quantity": "5 Cloves"
+        },
+        {
+          "id": 3,
+          "name": "Tomato",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Ghee",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Boil dal."
+        },
+        {
+          "id": 2,
+          "text": "Prepare tadka."
+        },
+        {
+          "id": 3,
+          "text": "Mix and serve hot."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000037",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Dal",
+        "Indian",
+        "Rice"
+      ],
+      "title": "Dal Tadka",
+      "updatedAt": 1783000000037,
+      "video": "https://www.youtube.com/embed/X8D0Yv7M0W4",
+      "visibility": "public"
+    },
+    "recipe_1783000000038": {
+      "authorEmail": "pooja.desai@gmail.com",
+      "authorName": "Pooja Desai",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 12,
+      "createdAt": 1783000000038,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Nutritious quinoa salad loaded with fresh vegetables.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Quinoa",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 2,
+          "name": "Cucumber",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Tomato",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Olive Oil",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook quinoa."
+        },
+        {
+          "id": 2,
+          "text": "Mix vegetables."
+        },
+        {
+          "id": 3,
+          "text": "Add dressing."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000038",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Salad",
+        "Quinoa"
+      ],
+      "title": "Quinoa Salad",
+      "updatedAt": 1783000000038,
+      "video": "https://www.youtube.com/embed/ZJ0AJK9z6eM",
+      "visibility": "public"
+    },
+    "recipe_1783000000039": {
+      "authorEmail": "ronak.patel@gmail.com",
+      "authorName": "Ronak Patel",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 25,
+      "createdAt": 1783000000039,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Classic creamy mushroom risotto with parmesan.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Arborio Rice",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 2,
+          "name": "Mushroom",
+          "quantity": "200g"
+        },
+        {
+          "id": 3,
+          "name": "Parmesan",
+          "quantity": "50g"
+        },
+        {
+          "id": 4,
+          "name": "Butter",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook mushrooms."
+        },
+        {
+          "id": 2,
+          "text": "Add rice and stock."
+        },
+        {
+          "id": 3,
+          "text": "Finish with parmesan."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000039",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Italian",
+        "Risotto",
+        "Mushroom"
+      ],
+      "title": "Mushroom Risotto",
+      "updatedAt": 1783000000039,
+      "video": "https://www.youtube.com/embed/NKtR3QxWPm8",
+      "visibility": "public"
+    },
+    "recipe_1783000000040": {
+      "authorEmail": "meera.trivedi@gmail.com",
+      "authorName": "Meera Trivedi",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 8,
+      "createdAt": 1783000000040,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Fresh strawberry milkshake with vanilla ice cream.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Strawberry",
+          "quantity": "10"
+        },
+        {
+          "id": 2,
+          "name": "Milk",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Vanilla Ice Cream",
+          "quantity": "2 Scoops"
+        },
+        {
+          "id": 4,
+          "name": "Sugar",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Pour into chilled glass."
+        },
+        {
+          "id": 3,
+          "text": "Serve immediately."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000040",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Milkshake",
+        "Drink",
+        "Strawberry"
+      ],
+      "title": "Strawberry Milkshake",
+      "updatedAt": 1783000000040,
+      "video": "https://www.youtube.com/embed/SLP9mbCuhJc",
+      "visibility": "public"
+    },
+    "recipe_1783000000041": {
+      "authorEmail": "krunal.prajapati@gmail.com",
+      "authorName": "Krunal Prajapati",
+      "category": "Fast Food",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000041,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Juicy grilled chicken burger with cheese and crispy lettuce.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Burger Bun",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Chicken Patty",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "name": "Cheese Slice",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Lettuce",
+          "quantity": "4 Leaves"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Grill chicken patty."
+        },
+        {
+          "id": 2,
+          "text": "Toast burger buns."
+        },
+        {
+          "id": 3,
+          "text": "Assemble burger and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000041",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Burger",
+        "Chicken",
+        "Fast Food"
+      ],
+      "title": "Grilled Chicken Burger",
+      "updatedAt": 1783000000041,
+      "video": "https://www.youtube.com/embed/BXe4lX4l2uA",
+      "visibility": "public"
+    },
+    "recipe_1783000000042": {
+      "authorEmail": "riddhi.mistry@gmail.com",
+      "authorName": "Riddhi Mistry",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000042,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy mango cheesecake with crunchy biscuit base.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Cream Cheese",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Mango Puree",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Biscuits",
+          "quantity": "200g"
+        },
+        {
+          "id": 4,
+          "name": "Butter",
+          "quantity": "100g"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare biscuit base."
+        },
+        {
+          "id": 2,
+          "text": "Mix cheesecake filling."
+        },
+        {
+          "id": 3,
+          "text": "Chill before serving."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000042",
+      "servings": 8,
+      "status": "published",
+      "tags": [
+        "Cheesecake",
+        "Mango",
+        "Dessert"
+      ],
+      "title": "Mango Cheesecake",
+      "updatedAt": 1783000000042,
+      "video": "https://www.youtube.com/embed/eP7QfP8kQe8",
+      "visibility": "public"
+    },
+    "recipe_1783000000043": {
+      "authorEmail": "jay.minhas@gmail.com",
+      "authorName": "Jay Minhas",
+      "category": "Chinese",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000043,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Restaurant style Veg Fried Rice full of fresh vegetables.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Carrot",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Capsicum",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Soy Sauce",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook rice."
+        },
+        {
+          "id": 2,
+          "text": "Stir fry vegetables."
+        },
+        {
+          "id": 3,
+          "text": "Mix everything together."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000043",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Chinese",
+        "Rice",
+        "Veg"
+      ],
+      "title": "Veg Fried Rice",
+      "updatedAt": 1783000000043,
+      "video": "https://www.youtube.com/embed/tN5M0z3B4fQ",
+      "visibility": "public"
+    },
+    "recipe_1783000000044": {
+      "authorEmail": "dhruvi.patel@gmail.com",
+      "authorName": "Dhruvi Patel",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 10,
+      "createdAt": 1783000000044,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Healthy avocado toast with cherry tomatoes and herbs.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Bread",
+          "quantity": "2 Slices"
+        },
+        {
+          "id": 2,
+          "name": "Avocado",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Cherry Tomatoes",
+          "quantity": "6"
+        },
+        {
+          "id": 4,
+          "name": "Black Pepper",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Toast bread."
+        },
+        {
+          "id": 2,
+          "text": "Mash avocado."
+        },
+        {
+          "id": 3,
+          "text": "Top with tomatoes and herbs."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000044",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Toast",
+        "Avocado"
+      ],
+      "title": "Avocado Toast",
+      "updatedAt": 1783000000044,
+      "video": "https://www.youtube.com/embed/n6M8Nf4w6bA",
+      "visibility": "public"
+    },
+    "recipe_1783000000045": {
+      "authorEmail": "mihir.vyas@gmail.com",
+      "authorName": "Mihir Vyas",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 40,
+      "createdAt": 1783000000045,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy Alfredo pasta with garlic, mushrooms and parmesan.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Pasta",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Cream",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Mushrooms",
+          "quantity": "150g"
+        },
+        {
+          "id": 4,
+          "name": "Parmesan",
+          "quantity": "50g"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Boil pasta."
+        },
+        {
+          "id": 2,
+          "text": "Prepare Alfredo sauce."
+        },
+        {
+          "id": 3,
+          "text": "Mix pasta with sauce and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000045",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Creamy"
+      ],
+      "title": "Creamy Alfredo Pasta",
+      "updatedAt": 1783000000045,
+      "video": "https://www.youtube.com/embed/WfN9Q5w8nLQ",
+      "visibility": "public"
+    },
+    "recipe_1783000000046": {
+      "authorEmail": "neha.chauhan@gmail.com",
+      "authorName": "Neha Chauhan",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000046,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Classic Margherita pizza topped with mozzarella, basil and tomato sauce.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Pizza Base",
+          "quantity": "1"
+        },
+        {
+          "id": 2,
+          "name": "Mozzarella Cheese",
+          "quantity": "200g"
+        },
+        {
+          "id": 3,
+          "name": "Tomato Sauce",
+          "quantity": "4 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Fresh Basil",
+          "quantity": "10 Leaves"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Spread tomato sauce on pizza base."
+        },
+        {
+          "id": 2,
+          "text": "Add cheese and basil."
+        },
+        {
+          "id": 3,
+          "text": "Bake for 15 minutes."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000046",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Pizza",
+        "Italian",
+        "Cheese"
+      ],
+      "title": "Margherita Pizza",
+      "updatedAt": 1783000000046,
+      "video": "https://www.youtube.com/embed/sv3TXMSv6Lw",
+      "visibility": "public"
+    },
+    "recipe_1783000000047": {
+      "authorEmail": "akash.soni@gmail.com",
+      "authorName": "Akash Soni",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 55,
+      "createdAt": 1783000000047,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Authentic Hyderabadi Chicken Biryani with aromatic spices.",
+      "difficulty": "Hard",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Chicken",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "name": "Basmati Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Yogurt",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Biryani Masala",
+          "quantity": "3 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Marinate chicken."
+        },
+        {
+          "id": 2,
+          "text": "Cook rice separately."
+        },
+        {
+          "id": 3,
+          "text": "Layer and dum cook."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000047",
+      "servings": 5,
+      "status": "published",
+      "tags": [
+        "Chicken",
+        "Biryani",
+        "Indian"
+      ],
+      "title": "Hyderabadi Chicken Biryani",
+      "updatedAt": 1783000000047,
+      "video": "https://www.youtube.com/embed/95BCU1n268w",
+      "visibility": "public"
+    },
+    "recipe_1783000000048": {
+      "authorEmail": "sneha.rathod@gmail.com",
+      "authorName": "Sneha Rathod",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 10,
+      "createdAt": 1783000000048,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing smoothie bowl loaded with berries and crunchy granola.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Frozen Berries",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 2,
+          "name": "Banana",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Granola",
+          "quantity": "1/2 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Greek Yogurt",
+          "quantity": "1 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend berries and yogurt."
+        },
+        {
+          "id": 2,
+          "text": "Pour into bowl."
+        },
+        {
+          "id": 3,
+          "text": "Top with granola."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000048",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Smoothie",
+        "Healthy",
+        "Breakfast"
+      ],
+      "title": "Berry Smoothie Bowl",
+      "updatedAt": 1783000000048,
+      "video": "https://www.youtube.com/embed/VK6M3D6Q0_Q",
+      "visibility": "public"
+    },
+    "recipe_1783000000049": {
+      "authorEmail": "vivek.parmar@gmail.com",
+      "authorName": "Vivek Parmar",
+      "category": "Snacks",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000049,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Cheesy garlic bread with herbs and butter.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "French Bread",
+          "quantity": "1 Loaf"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "name": "Garlic",
+          "quantity": "6 Cloves"
+        },
+        {
+          "id": 4,
+          "name": "Mozzarella",
+          "quantity": "100g"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Mix garlic butter."
+        },
+        {
+          "id": 2,
+          "text": "Spread on bread."
+        },
+        {
+          "id": 3,
+          "text": "Bake until golden."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000049",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Garlic Bread",
+        "Snack",
+        "Cheese"
+      ],
+      "title": "Cheesy Garlic Bread",
+      "updatedAt": 1783000000049,
+      "video": "https://www.youtube.com/embed/xK4l7M8Qf3w",
+      "visibility": "public"
+    },
+    "recipe_1783000000050": {
+      "authorEmail": "fatima.shaikh@gmail.com",
+      "authorName": "Fatima Shaikh",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000050,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Crispy falafel wrap with hummus and fresh vegetables.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Falafel",
+          "quantity": "6 Pieces"
+        },
+        {
+          "id": 2,
+          "name": "Tortilla",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "name": "Hummus",
+          "quantity": "4 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Lettuce",
+          "quantity": "1 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Warm tortilla."
+        },
+        {
+          "id": 2,
+          "text": "Spread hummus."
+        },
+        {
+          "id": 3,
+          "text": "Add falafel and vegetables then wrap."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000050",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Falafel",
+        "Wrap",
+        "Healthy"
+      ],
+      "title": "Falafel Wrap",
+      "updatedAt": 1783000000050,
+      "video": "https://www.youtube.com/embed/7D0iK6l6fL0",
+      "visibility": "public"
+    },
+    "recipe_1783000000056": {
+      "authorEmail": "priyank.desai@gmail.com",
+      "authorName": "Priyank Desai",
+      "category": "Chinese",
+      "commentCount": 0,
+      "cookingTime": 45,
+      "createdAt": 1783000000056,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Fresh homemade sushi rolls filled with vegetables and rice.",
+      "difficulty": "Hard",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Sushi Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Nori Sheets",
+          "quantity": "5"
+        },
+        {
+          "id": 3,
+          "name": "Cucumber",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Carrot",
+          "quantity": "1"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook sushi rice."
+        },
+        {
+          "id": 2,
+          "text": "Spread rice over nori."
+        },
+        {
+          "id": 3,
+          "text": "Roll tightly and slice."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000056",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Sushi",
+        "Japanese",
+        "Healthy"
+      ],
+      "title": "Veg Sushi Rolls",
+      "updatedAt": 1783000000056,
+      "video": "https://www.youtube.com/embed/I1UDS2kgqY8",
+      "visibility": "public"
+    },
+    "recipe_1783000000057": {
+      "authorEmail": "mehul.panchal@gmail.com",
+      "authorName": "Mehul Panchal",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 50,
+      "createdAt": 1783000000057,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy butter chicken served with naan or rice.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Chicken",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "name": "Cream",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Tomato Puree",
+          "quantity": "1 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook marinated chicken."
+        },
+        {
+          "id": 2,
+          "text": "Prepare buttery gravy."
+        },
+        {
+          "id": 3,
+          "text": "Mix and simmer."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000057",
+      "servings": 5,
+      "status": "published",
+      "tags": [
+        "Chicken",
+        "Butter Chicken",
+        "Indian"
+      ],
+      "title": "Butter Chicken",
+      "updatedAt": 1783000000057,
+      "video": "https://www.youtube.com/embed/a03U45jFxOI",
+      "visibility": "public"
+    },
+    "recipe_1783000000058": {
+      "authorEmail": "mansi.trivedi@gmail.com",
+      "authorName": "Mansi Trivedi",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 60,
+      "createdAt": 1783000000058,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Soft and moist red velvet cake with cream cheese frosting.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Flour",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Cocoa Powder",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Cream Cheese",
+          "quantity": "200g"
+        },
+        {
+          "id": 4,
+          "name": "Red Food Color",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare cake batter."
+        },
+        {
+          "id": 2,
+          "text": "Bake cake."
+        },
+        {
+          "id": 3,
+          "text": "Frost with cream cheese."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000058",
+      "servings": 8,
+      "status": "published",
+      "tags": [
+        "Cake",
+        "Dessert",
+        "Red Velvet"
+      ],
+      "title": "Red Velvet Cake",
+      "updatedAt": 1783000000058,
+      "video": "https://www.youtube.com/embed/FVdM6vN7M7g",
+      "visibility": "public"
+    },
+    "recipe_1783000000059": {
+      "authorEmail": "yash.bhatt@gmail.com",
+      "authorName": "Yash Bhatt",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 10,
+      "createdAt": 1783000000059,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing cold coffee blended with ice cream.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Milk",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Coffee",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 3,
+          "name": "Ice Cream",
+          "quantity": "2 Scoops"
+        },
+        {
+          "id": 4,
+          "name": "Ice Cubes",
+          "quantity": "6"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend all ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Pour into glass."
+        },
+        {
+          "id": 3,
+          "text": "Serve chilled."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000059",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Coffee",
+        "Drink",
+        "Cold Coffee"
+      ],
+      "title": "Cold Coffee",
+      "updatedAt": 1783000000059,
+      "video": "https://www.youtube.com/embed/RP5l3P4Q5VQ",
+      "visibility": "public"
+    },
+    "recipe_1783000000060": {
+      "authorEmail": "khushi.rana@gmail.com",
+      "authorName": "Khushi Rana",
+      "category": "Chinese",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000060,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Soft steamed momos stuffed with fresh vegetables.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1625938145744-6b5d2f8cb1dd",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Momo Wrappers",
+          "quantity": "20"
+        },
+        {
+          "id": 2,
+          "name": "Cabbage",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Carrot",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Spring Onion",
+          "quantity": "1/2 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare vegetable filling."
+        },
+        {
+          "id": 2,
+          "text": "Fill wrappers."
+        },
+        {
+          "id": 3,
+          "text": "Steam for 12 minutes."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000060",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Momos",
+        "Chinese",
+        "Snack"
+      ],
+      "title": "Veg Momos",
+      "updatedAt": 1783000000060,
+      "video": "https://www.youtube.com/embed/0b2m6D3M6nQ",
+      "visibility": "public"
+    },
+    "recipe_1783000000061": {
+      "authorEmail": "karan.makwana@gmail.com",
+      "authorName": "Karan Makwana",
+      "category": "Indian",
+      "commentCount": 0,
+      "cookingTime": 45,
+      "createdAt": 1783000000061,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Authentic Punjabi Chole Bhature with fluffy bhature.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Chickpeas",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Flour",
+          "quantity": "3 Cups"
+        },
+        {
+          "id": 3,
+          "name": "Onion",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Chole Masala",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook chickpeas until soft."
+        },
+        {
+          "id": 2,
+          "text": "Prepare spicy gravy."
+        },
+        {
+          "id": 3,
+          "text": "Fry bhature and serve hot."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000061",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Punjabi",
+        "Chole",
+        "Bhature"
+      ],
+      "title": "Chole Bhature",
+      "updatedAt": 1783000000061,
+      "video": "https://www.youtube.com/embed/IG8mJcQ0N0Q",
+      "visibility": "public"
+    },
+    "recipe_1783000000062": {
+      "authorEmail": "hetal.vora@gmail.com",
+      "authorName": "Hetal Vora",
+      "category": "Breakfast",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000062,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "South Indian crispy masala dosa with coconut chutney.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Dosa Batter",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Potato",
+          "quantity": "3"
+        },
+        {
+          "id": 3,
+          "name": "Mustard Seeds",
+          "quantity": "1 tsp"
+        },
+        {
+          "id": 4,
+          "name": "Curry Leaves",
+          "quantity": "10"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare potato masala."
+        },
+        {
+          "id": 2,
+          "text": "Spread dosa batter."
+        },
+        {
+          "id": 3,
+          "text": "Stuff masala and fold."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000062",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Breakfast",
+        "Dosa",
+        "South Indian"
+      ],
+      "title": "Masala Dosa",
+      "updatedAt": 1783000000062,
+      "video": "https://www.youtube.com/embed/zM9K8Y6D8Q4",
+      "visibility": "public"
+    },
+    "recipe_1783000000063": {
+      "authorEmail": "ronak.pandya@gmail.com",
+      "authorName": "Ronak Pandya",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000063,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Fresh quinoa salad packed with veggies and feta cheese.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Quinoa",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 2,
+          "name": "Cucumber",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Cherry Tomatoes",
+          "quantity": "10"
+        },
+        {
+          "id": 4,
+          "name": "Feta Cheese",
+          "quantity": "100g"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook quinoa."
+        },
+        {
+          "id": 2,
+          "text": "Mix chopped vegetables."
+        },
+        {
+          "id": 3,
+          "text": "Add dressing and feta."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000063",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Salad",
+        "Quinoa"
+      ],
+      "title": "Quinoa Salad",
+      "updatedAt": 1783000000063,
+      "video": "https://www.youtube.com/embed/KV6W4h2M6qM",
+      "visibility": "public"
+    },
+    "recipe_1783000000064": {
+      "authorEmail": "jinal.patel@gmail.com",
+      "authorName": "Jinal Patel",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 25,
+      "createdAt": 1783000000064,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Classic Italian Tiramisu layered with coffee soaked biscuits.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Mascarpone",
+          "quantity": "250g"
+        },
+        {
+          "id": 2,
+          "name": "Coffee",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Ladyfinger Biscuits",
+          "quantity": "20"
+        },
+        {
+          "id": 4,
+          "name": "Cocoa Powder",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Dip biscuits in coffee."
+        },
+        {
+          "id": 2,
+          "text": "Layer with cream."
+        },
+        {
+          "id": 3,
+          "text": "Chill before serving."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000064",
+      "servings": 6,
+      "status": "published",
+      "tags": [
+        "Dessert",
+        "Italian",
+        "Tiramisu"
+      ],
+      "title": "Classic Tiramisu",
+      "updatedAt": 1783000000064,
+      "video": "https://www.youtube.com/embed/87V4nizNJiE",
+      "visibility": "public"
+    },
+    "recipe_1783000000065": {
+      "authorEmail": "vatsal.trivedi@gmail.com",
+      "authorName": "Vatsal Trivedi",
+      "category": "Drinks",
+      "commentCount": 0,
+      "cookingTime": 5,
+      "createdAt": 1783000000065,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Refreshing watermelon mojito mocktail perfect for summer.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Watermelon",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Mint Leaves",
+          "quantity": "10"
+        },
+        {
+          "id": 3,
+          "name": "Lime",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "name": "Soda",
+          "quantity": "1 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend watermelon."
+        },
+        {
+          "id": 2,
+          "text": "Add mint and lime."
+        },
+        {
+          "id": 3,
+          "text": "Top with chilled soda."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000065",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Mocktail",
+        "Summer",
+        "Watermelon"
+      ],
+      "title": "Watermelon Mojito",
+      "updatedAt": 1783000000065,
+      "video": "https://www.youtube.com/embed/lX6KfY7j4A0",
+      "visibility": "public"
+    },
+    "recipe_1783000000066": {
+      "authorEmail": "nisarg.shah@gmail.com",
+      "authorName": "Nisarg Shah",
+      "category": "Italian",
+      "commentCount": 0,
+      "cookingTime": 35,
+      "createdAt": 1783000000066,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Creamy mushroom risotto made with parmesan cheese and herbs.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Arborio Rice",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Mushrooms",
+          "quantity": "200g"
+        },
+        {
+          "id": 3,
+          "name": "Parmesan",
+          "quantity": "80g"
+        },
+        {
+          "id": 4,
+          "name": "Butter",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Cook mushrooms."
+        },
+        {
+          "id": 2,
+          "text": "Slowly add stock to rice."
+        },
+        {
+          "id": 3,
+          "text": "Finish with parmesan."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000066",
+      "servings": 4,
+      "status": "published",
+      "tags": [
+        "Italian",
+        "Risotto",
+        "Mushroom"
+      ],
+      "title": "Creamy Mushroom Risotto",
+      "updatedAt": 1783000000066,
+      "video": "https://www.youtube.com/embed/NKtR3n4f4zE",
+      "visibility": "public"
+    },
+    "recipe_1783000000067": {
+      "authorEmail": "palak.gandhi@gmail.com",
+      "authorName": "Palak Gandhi",
+      "category": "Breakfast",
+      "commentCount": 0,
+      "cookingTime": 12,
+      "createdAt": 1783000000067,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Healthy banana pancakes with honey and fresh fruits.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Banana",
+          "quantity": "2"
+        },
+        {
+          "id": 2,
+          "name": "Eggs",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "name": "Oats",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 4,
+          "name": "Honey",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Blend ingredients."
+        },
+        {
+          "id": 2,
+          "text": "Cook pancakes."
+        },
+        {
+          "id": 3,
+          "text": "Serve with honey."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000067",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Breakfast",
+        "Healthy",
+        "Pancakes"
+      ],
+      "title": "Banana Oat Pancakes",
+      "updatedAt": 1783000000067,
+      "video": "https://www.youtube.com/embed/4Q5L9W8VfY8",
+      "visibility": "public"
+    },
+    "recipe_1783000000068": {
+      "authorEmail": "darshan.thakor@gmail.com",
+      "authorName": "Darshan Thakor",
+      "category": "Fast Food",
+      "commentCount": 0,
+      "cookingTime": 20,
+      "createdAt": 1783000000068,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Loaded crispy french fries with melted cheese and sauces.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Potatoes",
+          "quantity": "4"
+        },
+        {
+          "id": 2,
+          "name": "Cheese Sauce",
+          "quantity": "1 Cup"
+        },
+        {
+          "id": 3,
+          "name": "Mayonnaise",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 4,
+          "name": "Chili Flakes",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Fry potatoes."
+        },
+        {
+          "id": 2,
+          "text": "Pour cheese sauce."
+        },
+        {
+          "id": 3,
+          "text": "Garnish and serve."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000068",
+      "servings": 3,
+      "status": "published",
+      "tags": [
+        "Fries",
+        "Fast Food",
+        "Cheese"
+      ],
+      "title": "Loaded Cheese Fries",
+      "updatedAt": 1783000000068,
+      "video": "https://www.youtube.com/embed/YM0m7M2Jr3M",
+      "visibility": "public"
+    },
+    "recipe_1783000000069": {
+      "authorEmail": "bhumi.solanki@gmail.com",
+      "authorName": "Bhumi Solanki",
+      "category": "Healthy",
+      "commentCount": 0,
+      "cookingTime": 15,
+      "createdAt": 1783000000069,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Protein rich chickpea salad with lemon dressing.",
+      "difficulty": "Easy",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Boiled Chickpeas",
+          "quantity": "2 Cups"
+        },
+        {
+          "id": 2,
+          "name": "Cucumber",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "name": "Tomato",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Lemon Juice",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Mix vegetables."
+        },
+        {
+          "id": 2,
+          "text": "Add chickpeas."
+        },
+        {
+          "id": 3,
+          "text": "Pour dressing."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000069",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Healthy",
+        "Salad",
+        "Protein"
+      ],
+      "title": "Chickpea Protein Salad",
+      "updatedAt": 1783000000069,
+      "video": "https://www.youtube.com/embed/NWmP0X6J4hM",
+      "visibility": "public"
+    },
+    "recipe_1783000000070": {
+      "authorEmail": "vivek.chavda@gmail.com",
+      "authorName": "Vivek Chavda",
+      "category": "Dessert",
+      "commentCount": 0,
+      "cookingTime": 30,
+      "createdAt": 1783000000070,
+      "createdBy": "RmSipD2aacbO2uQpOp8igaHFOOy2",
+      "description": "Classic chocolate lava cake with molten chocolate center.",
+      "difficulty": "Medium",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Dark Chocolate",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "name": "Butter",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "name": "Eggs",
+          "quantity": "2"
+        },
+        {
+          "id": 4,
+          "name": "Flour",
+          "quantity": "1/2 Cup"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "text": "Prepare batter."
+        },
+        {
+          "id": 2,
+          "text": "Bake for 12 minutes."
+        },
+        {
+          "id": 3,
+          "text": "Serve warm."
+        }
+      ],
+      "likes": {},
+      "recipeId": "recipe_1783000000070",
+      "servings": 2,
+      "status": "published",
+      "tags": [
+        "Chocolate",
+        "Cake",
+        "Dessert"
+      ],
+      "title": "Chocolate Lava Cake",
+      "updatedAt": 1783000000070,
+      "video": "https://www.youtube.com/embed/X7Y9v2J7M6k",
+      "visibility": "public"
+    }
+  },
+  "users": {
+    "FqMIPdTWCQerNS5zfjIUtQShhu83": {
+      "createdAt": 1782122370661,
+      "email": "mia420@gmail.com",
+      "favorites": {
+        "recipe_1781862036040": true
+      },
+      "name": "mia ",
+      "profileImage": "",
+      "uid": "FqMIPdTWCQerNS5zfjIUtQShhu83"
+    },
+    "KHLGDxBQbxZrHixX6F8jcMgqvID3": {
+      "createdAt": 1781590851881,
+      "email": "nayan@gmail.com",
+      "favorites": {
+        "recipe_1781861196794": true,
+        "recipe_1781862036040": true
+      },
+      "name": "nayan",
+      "profileImage": "",
+      "uid": "KHLGDxBQbxZrHixX6F8jcMgqvID3"
+    },
+    "RmSipD2aacbO2uQpOp8igaHFOOy2": {
+      "createdAt": 1781594090899,
+      "email": "jayeshmali245@gmail.com",
+      "name": "jayesh",
+      "profileImage": "",
+      "uid": "RmSipD2aacbO2uQpOp8igaHFOOy2"
+    }
+  }
+}
