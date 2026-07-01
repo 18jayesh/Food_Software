@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import SearchFilterBar from "../../pages/myRecipes/SearchFilterBar";
+import SearchFilterBar from "../../pages/MyRecipes/SearchFilterBar";
 
 import { getMyRecipes } from "../../services/myRecipeService";
 
