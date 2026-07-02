@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from "react";
+
 import { useSearch } from "../../context/SearchContext";
 
 import useRecipes from "../../hooks/useRecipes";
@@ -6,6 +8,8 @@ import filterRecipes from "../../utils/filterRecipes";
 import RecipeCard from "./RecipeCard";
 import RecipeSkeleton from "./RecipeSkeleton";
 import EmptyFeed from "./EmptyFeed";
+
+const RECIPES_PER_LOAD = 6;
 
 export default function RecipeFeed() {
 
@@ -35,9 +39,91 @@ export default function RecipeFeed() {
 
     );
 
-    // ==========================
+    const [visibleCount, setVisibleCount] = useState(RECIPES_PER_LOAD);
+
+    const loaderRef = useRef(null);
+
+    // =============================
+    // Reset when search/filter changes
+    // =============================
+
+    useEffect(() => {
+
+        setVisibleCount(RECIPES_PER_LOAD);
+
+    }, [
+
+        search,
+
+        category
+
+    ]);
+
+    // =============================
+    // Infinite Progressive Render
+    // =============================
+
+    useEffect(() => {
+
+        if (!loaderRef.current) return;
+
+        const observer = new IntersectionObserver(
+
+            (entries) => {
+
+                const entry = entries[0];
+
+                if (
+
+                    entry.isIntersecting &&
+
+                    visibleCount < filteredRecipes.length
+
+                ) {
+
+                    setTimeout(() => {
+
+                        setVisibleCount((prev) =>
+
+                            Math.min(
+
+                                prev + RECIPES_PER_LOAD,
+
+                                filteredRecipes.length
+
+                            )
+
+                        );
+
+                    }, 300);
+
+                }
+
+            },
+
+            {
+
+                threshold: 0.3
+
+            }
+
+        );
+
+        observer.observe(loaderRef.current);
+
+        return () => observer.disconnect();
+
+    }, [
+
+        visibleCount,
+
+        filteredRecipes.length
+
+    ]);
+
+    // =============================
     // Loading
-    // ==========================
+    // =============================
 
     if (loading) {
 
@@ -46,12 +132,19 @@ export default function RecipeFeed() {
             <div
 
                 className="
+
                     grid
+
                     grid-cols-1
+
                     md:grid-cols-2
+
                     xl:grid-cols-3
+
                     gap-6
+
                     mt-6
+
                 "
 
             >
@@ -80,9 +173,9 @@ export default function RecipeFeed() {
 
     }
 
-    // ==========================
-    // Empty Result
-    // ==========================
+    // =============================
+    // Empty
+    // =============================
 
     if (filteredRecipes.length === 0) {
 
@@ -100,9 +193,9 @@ export default function RecipeFeed() {
 
     }
 
-    // ==========================
-    // Recipes
-    // ==========================
+    // =============================
+    // Render
+    // =============================
 
     return (
 
@@ -111,32 +204,90 @@ export default function RecipeFeed() {
             <div
 
                 className="
+
                     grid
+
                     grid-cols-1
+
                     md:grid-cols-2
+
                     xl:grid-cols-3
+
                     gap-6
+
                 "
 
             >
 
                 {
 
-                    filteredRecipes.map((recipe) => (
+                    filteredRecipes
 
-                        <RecipeCard
+                        .slice(0, visibleCount)
 
-                            key={recipe.recipeId}
+                        .map((recipe) => (
 
-                            recipe={recipe}
+                            <RecipeCard
 
-                        />
+                                key={recipe.recipeId}
 
-                    ))
+                                recipe={recipe}
+
+                            />
+
+                        ))
 
                 }
 
             </div>
+
+            {
+
+                visibleCount < filteredRecipes.length &&
+
+                <div
+
+                    ref={loaderRef}
+
+                    className="
+
+                        mt-8
+
+                        grid
+
+                        grid-cols-1
+
+                        md:grid-cols-2
+
+                        xl:grid-cols-3
+
+                        gap-6
+
+                    "
+
+                >
+
+                    {
+
+                        Array.from({
+
+                            length: 3
+
+                        }).map((_, index) => (
+
+                            <RecipeSkeleton
+
+                                key={index}
+
+                            />
+
+                        ))
+
+                    }
+
+                </div>
+
+            }
 
         </section>
 
