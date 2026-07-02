@@ -1,85 +1,45 @@
+import React, { memo, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+
 import {
     UserCircle2,
-    Heart,
-    MessageCircle,
-    Bookmark,
     Play,
     MoreHorizontal
 } from "lucide-react";
+
 import RecipeActions from "./RecipeActions";
-import { useEffect, useState } from "react";
-import { ref, get } from "firebase/database";
-import { db } from "../../firebase/firebaseConfig";
 import LazyImage from "../../components/Common/LazyImage";
-export default function RecipeCard({
+
+function RecipeCard({
 
     recipe,
 
     refreshRecipes
 
 }) {
-    const [authorName, setAuthorName] = useState("Loading...");
+
     const navigate = useNavigate();
-    useEffect(() => {
 
-        async function loadUser() {
+    const hasVideo = useMemo(() => {
 
-            if (!recipe.createdBy) return;
+        return recipe.video && recipe.video.trim() !== "";
 
-            try {
+    }, [recipe.video]);
 
-                const snapshot = await get(
+    const handleRecipeClick = () => {
 
-                    ref(db, `users/${recipe.createdBy}`)
+        navigate(`/recipe/${recipe.recipeId}`);
 
-                );
-
-                if (snapshot.exists()) {
-
-                    const user = snapshot.val();
-
-                    setAuthorName(user.name || "Unknown User");
-
-                }
-
-                else {
-
-                    setAuthorName("Unknown User");
-
-                }
-
-            }
-
-            catch (error) {
-
-                console.log(error);
-
-                setAuthorName("Unknown User");
-
-            }
-
-        }
-
-        loadUser();
-
-    }, [recipe.createdBy]);
-    const hasVideo =
-        recipe.video &&
-        recipe.video.trim() !== "";
+    };
 
     return (
 
         <motion.article
 
-            whileHover={{
-                y: -4
-            }}
+            whileHover={{ y: -4 }}
 
-            transition={{
-                duration: .25
-            }}
+            transition={{ duration: 0.25 }}
 
             className="
                 bg-white
@@ -92,7 +52,7 @@ export default function RecipeCard({
 
         >
 
-            {/* Header */}
+            {/* ================= Header ================= */}
 
             <div className="flex items-center justify-between p-4">
 
@@ -110,13 +70,13 @@ export default function RecipeCard({
 
                         <h3 className="font-semibold text-gray-900">
 
-                            {authorName}
+                            {recipe.authorName}
 
                         </h3>
 
                         <p className="text-xs text-gray-500">
 
-                            2 hours ago
+                            {recipe.timeAgo}
 
                         </p>
 
@@ -138,19 +98,16 @@ export default function RecipeCard({
 
             </div>
 
-            {/* Image */}
+            {/* ================= Recipe Image ================= */}
 
             <div
 
-                onClick={() =>
-
-                    navigate(`/recipe/${recipe.recipeId}`)
-
-                }
+                onClick={handleRecipeClick}
 
                 className="
                     relative
                     cursor-pointer
+                    overflow-hidden
                 "
 
             >
@@ -162,45 +119,24 @@ export default function RecipeCard({
                     alt={recipe.title}
 
                     className="
-
                         w-full
-
                         h-72
-
-                        hover:scale-105
-
                         transition-transform
-
                         duration-500
-
+                        hover:scale-105
                     "
 
                 />
 
                 {
 
-                    hasVideo &&
-
-                    <div
-
-                        className="
-                            absolute
-                            inset-0
-                            flex
-                            items-center
-                            justify-center
-                        "
-
-                    >
+                    hasVideo && (
 
                         <div
 
                             className="
-                                w-16
-                                h-16
-                                rounded-full
-                                bg-white/80
-                                backdrop-blur-md
+                                absolute
+                                inset-0
                                 flex
                                 items-center
                                 justify-center
@@ -208,21 +144,39 @@ export default function RecipeCard({
 
                         >
 
-                            <Play
+                            <div
 
-                                size={28}
+                                className="
+                                    w-16
+                                    h-16
+                                    rounded-full
+                                    bg-white/80
+                                    backdrop-blur-md
+                                    flex
+                                    items-center
+                                    justify-center
+                                "
 
-                                className="text-orange-500 ml-1"
+                            >
 
-                            />
+                                <Play
+
+                                    size={28}
+
+                                    className="text-orange-500 ml-1"
+
+                                />
+
+                            </div>
 
                         </div>
 
-                    </div>
+                    )
 
                 }
 
             </div>
+
             {/* ================= Actions ================= */}
 
             <div className="px-4 pt-4">
@@ -242,3 +196,5 @@ export default function RecipeCard({
     );
 
 }
+
+export default memo(RecipeCard);

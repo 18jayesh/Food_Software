@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { useSearch } from "../../context/SearchContext";
 
@@ -13,39 +13,41 @@ const RECIPES_PER_LOAD = 6;
 
 export default function RecipeFeed() {
 
-    const {
+    const { search, category } = useSearch();
+
+    const { recipes, loading } = useRecipes();
+
+    const filteredRecipes = useMemo(() => {
+
+        return filterRecipes(
+
+            recipes,
+
+            search,
+
+            category
+
+        );
+
+    }, [
+
+        recipes,
 
         search,
 
         category
 
-    } = useSearch();
-
-    const {
-
-        recipes,
-
-        loading
-
-    } = useRecipes();
-
-    const filteredRecipes = filterRecipes(
-
-        recipes,
-
-        search,
-
-        category
-
-    );
+    ]);
 
     const [visibleCount, setVisibleCount] = useState(RECIPES_PER_LOAD);
 
     const loaderRef = useRef(null);
 
-    // =============================
-    // Reset when search/filter changes
-    // =============================
+    const isLoadingMore = useRef(false);
+
+    // ==========================
+    // Reset when Search/Filter changes
+    // ==========================
 
     useEffect(() => {
 
@@ -59,13 +61,15 @@ export default function RecipeFeed() {
 
     ]);
 
-    // =============================
-    // Infinite Progressive Render
-    // =============================
+    // ==========================
+    // Infinite Feed
+    // ==========================
 
     useEffect(() => {
 
-        if (!loaderRef.current) return;
+        const target = loaderRef.current;
+
+        if (!target) return;
 
         const observer = new IntersectionObserver(
 
@@ -75,41 +79,51 @@ export default function RecipeFeed() {
 
                 if (
 
-                    entry.isIntersecting &&
+                    !entry.isIntersecting ||
 
-                    visibleCount < filteredRecipes.length
+                    isLoadingMore.current ||
+
+                    visibleCount >= filteredRecipes.length
 
                 ) {
 
-                    setTimeout(() => {
-
-                        setVisibleCount((prev) =>
-
-                            Math.min(
-
-                                prev + RECIPES_PER_LOAD,
-
-                                filteredRecipes.length
-
-                            )
-
-                        );
-
-                    }, 300);
+                    return;
 
                 }
+
+                isLoadingMore.current = true;
+
+                setTimeout(() => {
+
+                    setVisibleCount((prev) =>
+
+                        Math.min(
+
+                            prev + RECIPES_PER_LOAD,
+
+                            filteredRecipes.length
+
+                        )
+
+                    );
+
+                    isLoadingMore.current = false;
+
+                }, 200);
 
             },
 
             {
 
-                threshold: 0.3
+                rootMargin: "400px",
+
+                threshold: 0
 
             }
 
         );
 
-        observer.observe(loaderRef.current);
+        observer.observe(target);
 
         return () => observer.disconnect();
 
@@ -121,47 +135,21 @@ export default function RecipeFeed() {
 
     ]);
 
-    // =============================
+    // ==========================
     // Loading
-    // =============================
+    // ==========================
 
     if (loading) {
 
         return (
 
-            <div
-
-                className="
-
-                    grid
-
-                    grid-cols-1
-
-                    md:grid-cols-2
-
-                    xl:grid-cols-3
-
-                    gap-6
-
-                    mt-6
-
-                "
-
-            >
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-6">
 
                 {
 
-                    Array.from({
+                    Array.from({ length: 6 }).map((_, index) => (
 
-                        length: 6
-
-                    }).map((_, index) => (
-
-                        <RecipeSkeleton
-
-                            key={index}
-
-                        />
+                        <RecipeSkeleton key={index} />
 
                     ))
 
@@ -173,9 +161,9 @@ export default function RecipeFeed() {
 
     }
 
-    // =============================
+    // ==========================
     // Empty
-    // =============================
+    // ==========================
 
     if (filteredRecipes.length === 0) {
 
@@ -193,9 +181,9 @@ export default function RecipeFeed() {
 
     }
 
-    // =============================
-    // Render
-    // =============================
+    // ==========================
+    // UI
+    // ==========================
 
     return (
 
@@ -204,17 +192,11 @@ export default function RecipeFeed() {
             <div
 
                 className="
-
                     grid
-
                     grid-cols-1
-
                     md:grid-cols-2
-
                     xl:grid-cols-3
-
                     gap-6
-
                 "
 
             >
@@ -243,49 +225,46 @@ export default function RecipeFeed() {
 
             {
 
-                visibleCount < filteredRecipes.length &&
+                visibleCount < filteredRecipes.length && (
 
-                <div
+                    <>
 
-                    ref={loaderRef}
+                        <div
 
-                    className="
+                            ref={loaderRef}
 
-                        mt-8
+                            className="h-10"
 
-                        grid
+                        />
 
-                        grid-cols-1
+                        <div
 
-                        md:grid-cols-2
+                            className="
+                                mt-6
+                                grid
+                                grid-cols-1
+                                md:grid-cols-2
+                                xl:grid-cols-3
+                                gap-6
+                            "
 
-                        xl:grid-cols-3
+                        >
 
-                        gap-6
+                            {
 
-                    "
+                                Array.from({ length: 3 }).map((_, index) => (
 
-                >
+                                    <RecipeSkeleton key={index} />
 
-                    {
+                                ))
 
-                        Array.from({
+                            }
 
-                            length: 3
+                        </div>
 
-                        }).map((_, index) => (
+                    </>
 
-                            <RecipeSkeleton
-
-                                key={index}
-
-                            />
-
-                        ))
-
-                    }
-
-                </div>
+                )
 
             }
 
